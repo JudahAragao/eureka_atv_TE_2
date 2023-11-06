@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 @Data
@@ -23,5 +24,8 @@ public class FonteRecurso {
 
     @Column(name = "DataAlteracao", nullable = false)
     private LocalDate DataAlteracao;
+
+    public void setDataAlteracao(LocalDateTime now) {
+    }
 
 }

@@ -1,4 +1,4 @@
-package br.com.eureka.orcamento.rest.controller.exceptions;
+package br.com.eureka.eureka.rest.controller.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
